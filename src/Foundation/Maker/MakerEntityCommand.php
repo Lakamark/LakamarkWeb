@@ -37,7 +37,7 @@ class MakerEntityCommand extends AbstractMakerCommand
         $command = $commandApplication->find('make:entity');
         $arguments = [
             'command' => 'make:entity',
-            'entityName' => "\\App\\Domain\\$domain\\Entity\\$entity",
+            'name' => "\\App\\Domain\\$domain\\Entity\\$entity",
         ];
         $greetInput = new ArrayInput($arguments);
 
