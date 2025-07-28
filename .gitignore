@@ -20,6 +20,8 @@
 ###< symfony/asset-mapper ###
 
 .idea
+/node_modules
+package-lock.json
 
 ###> friendsofphp/php-cs-fixer ###
 /.php-cs-fixer.php
