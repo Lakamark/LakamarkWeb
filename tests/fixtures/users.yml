@@ -1,0 +1,13 @@
+include:
+    - ../../fixtures/templates.yml
+
+App\Domain\Auth\Entity\User:
+    user{1..5} (extends user):
+
+    user_admin (extends user):
+        username: LakaMark
+        email: dummy@lakamark.com
+
+    user_unconfirmed (extends user):
+        username: Dummy
+        email: unconfirmed@dummy.com

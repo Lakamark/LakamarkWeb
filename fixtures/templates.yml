@@ -1,0 +1,8 @@
+App\Domain\Auth\Entity\User:
+    user (template):
+        username: John<current()>
+        email: john<current()>\@doe.com
+        password: <password('000000')>
+        createdAt: <date_create()>
+        updatedAt: <date_create()>
+        isVerified: true
